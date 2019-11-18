@@ -22,13 +22,14 @@ html, body {
 }
 
 .navbar {
-    /* background-color: #e53935 ; */
     background-color: rgb(109, 7, 55) ;
     padding: 1% 1%;
     font-size: 1.2em;
 }
 
 .navbar li a {
+    padding: 0 5px;
+    font-size: 15px;
     color: white;
 }
 
@@ -54,10 +55,18 @@ html, body {
     color: white;
 }
 
+#ourStory {
+    padding: 100px 0 0 0;
+}
+
 #ourStory h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 48px;
     color:  rgb(109, 7, 55) ;
+}
+
+#weddingCeremony {
+    padding: 100px 0 0 0;
 }
 
 #weddingCeremony h1 {
@@ -73,6 +82,16 @@ html, body {
     font-size: 40px;
 }
 
+#contact {
+    padding: 100px 0 0 0;
+}
+
+#contact h4 {
+    color:  rgb(109, 7, 55) ;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
 #ceremony h4 {
     color:  rgb(109, 7, 55) ;
     font-family: 'Dancing Script', cursive;
@@ -83,6 +102,10 @@ html, body {
     color:  rgb(109, 7, 55) ;
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
+}
+
+#venue {
+    padding: 100px 0 0 0;
 }
 
 #venue h4 {
@@ -101,4 +124,22 @@ html, body {
     background-color: rgb(109, 7, 55) ;
     padding: 50px 0;
     text-align: center;
+}
+
+.address {
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+.phone {
+    height: 50%;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+video {
+    width: 100%;
 }
