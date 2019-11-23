@@ -59,6 +59,10 @@ html, body {
     padding: 100px 0 0 0;
 }
 
+#home {
+    padding: 60px 0 0 0;
+}
+
 #ourStory h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 48px;
@@ -141,5 +145,6 @@ html, body {
 }
 
 video {
-    width: 100%;
+    width: 100% !important;
+    height: auto !important;
 }
