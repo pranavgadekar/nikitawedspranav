@@ -11,7 +11,7 @@
     <title>Nikita Weds Pranav</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg" role="navigation">
+    <nav class="navbar fixed-top navbar-expand-sm .d-print" role="navigation">
         <a class="navbar-brand" href="#">
             <h3>Nikita Weds Pranav</h3>
         </a>
@@ -65,14 +65,16 @@
         </div>
     </div>
 
-    <div class="padding">
-        <div class="container">
+    <div class="padding" style="padding: 0;">
             <div class="row" id="invitation">
                 <div class="col-12">
-                    <img src="./images/Invitation.png" alt="">
+                    <picture>
+                        <source srcset="./images/Invitation_small.png" media="(max-width: 400px)">
+                        <source srcset="./images/Invitation.png" style="max-width: ;">
+                        <img src="./images/Invitation.png">
+                    </picture>
                 </div>
             </div>
-        </div>
     </div>
 
     <div class="spacer"></div>
@@ -296,8 +298,8 @@
         </div>
 
     <footer class="page-footer font-small blue">
-        <div class="footer-copyright text-center py-3">© 2019 Pranav & Nikita
-            
+        <div class="footer-copyright text-center py-3">
+            © 2019 Pranav & Nikita
         </div>
     </footer>
 
